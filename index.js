@@ -12,7 +12,7 @@ function updateObjectWithKeyAndValue(object,key,value){
   object[key]=value
    return object
 }
-function destructivelyUpdaeObjectWithKeyAndValue(object,key,value){
+function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
   object=Object.assign({},object[key]=value)
   return object
 }
