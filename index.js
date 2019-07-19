@@ -8,3 +8,4 @@ function updateObjectWithKeyAndValue(object,key,value){
  let newObj=Object.assign({},object,object[key]=value) 
  return newObj
 }
+function updateObject
