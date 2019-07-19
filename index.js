@@ -5,7 +5,7 @@ function updateObjectWithKeyAndValue(object,key,value){
   
 }
 function updateObjectWithKeyAndValue(object,key,value){
- let newObj=Object.assign({},object[key]=value,object) 
+ let newObj = Object.assign({},object[key]=value,object) 
  return newObj
 }
 function updateObjectWithKeyAndValue(object,key,value){
