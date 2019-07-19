@@ -9,6 +9,6 @@ function updateObjectWithKeyAndValue(object,key,value){
  return newObj
 }
 function updateObjectWithKeyAndValue(object,key,value){
-  object[key]=value
+  object[key]=undefined
    return object
 }
